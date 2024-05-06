@@ -1,0 +1,33 @@
+.main_container {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin: 50px;
+  }
+  
+  .image_container {
+    flex: 1;
+  }
+  
+  .image_container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .content_container {
+    flex: 2;
+    padding: 0 20px; /* Adjust spacing between the image and content */
+  }
+  
+  .heading_name {
+    text-align: right;
+    color: black;
+  }
+  
+  .paragraph {
+    text-align: justify; /* Optionally, justify the paragraph text */
+    text-align: center;
+    border-width: 1px;
+  }
+  

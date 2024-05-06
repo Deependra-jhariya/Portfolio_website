@@ -1,0 +1,29 @@
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Horizontally center the items */
+  }
+  
+  .project-item {
+    width: calc(50% - 20px); /* Set the width of each project item */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Horizontally center the items */
+  }
+  
+  .project-item h2 {
+    margin-top: 0; /* Remove top margin of project name */
+  }
+  
+  .project-item img {
+    width: 100%; /* Set image width to fill the container */
+    max-height: 500px; /* Set maximum height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 20px;
+  }
+  p{
+    margin-top: 20px;
+  }

@@ -1,6 +1,4 @@
 import React from 'react'
-import InstagramIcon from '@mui/icons-material/Instagram';
-import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 const Contact = () => {
   const openLink = (url) => {
     window.open(url, '_blank');
@@ -32,7 +30,6 @@ const Contact = () => {
 }
 const styles = {
   container: {
-    backgroundColor: 'black',
     padding: '50px 0',
     textAlign: 'center',
   },

@@ -21,7 +21,6 @@ const About = () => {
 };
 const styles = {
   container: {
-    backgroundColor: 'black',
     padding: '50px 0',
     textAlign: 'center',
   },
